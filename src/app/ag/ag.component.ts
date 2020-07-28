@@ -11,7 +11,7 @@ export class AgComponent implements OnInit {
   age:number;
   constructor(public xchng:XchgService) { 
   }
-  
+
 
   ngOnInit() {
     this.xchng.onClk(this.age)
